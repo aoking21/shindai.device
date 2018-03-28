@@ -26,17 +26,17 @@
   if(isset($_POST["visitorData"])){
     $data = array(
 	Array('時間', '男性', '女性'),
-	Array('10時',  serchFromVisitorMen(10, 'aoki02'),serchFromVisitorWomen(10, 'aoki02')),
-  Array('11時',  serchFromVisitorMen(11, 'aoki02'),serchFromVisitorWomen(11, 'aoki02')),
-	Array('12時',  serchFromVisitorMen(12, 'aoki02'),serchFromVisitorWomen(12, 'aoki02')),
-	Array('13時',  serchFromVisitorMen(13, 'aoki02'),serchFromVisitorWomen(13, 'aoki02')),
-	Array('14時',  serchFromVisitorMen(14, 'aoki02'),serchFromVisitorWomen(14, 'aoki02')),
-	Array('15時',  serchFromVisitorMen(15, 'aoki02'),serchFromVisitorWomen(15, 'aoki02')),
-	Array('16時',  serchFromVisitorMen(16, 'aoki02'),serchFromVisitorWomen(16, 'aoki02')),
-	Array('17時',  serchFromVisitorMen(17, 'aoki02'),serchFromVisitorWomen(17, 'aoki02')),
-	Array('18時',  serchFromVisitorMen(18, 'aoki02'),serchFromVisitorWomen(18, 'aoki02')),
-	Array('19時',  serchFromVisitorMen(19, 'aoki02'),serchFromVisitorWomen(19, 'aoki02')),
-	Array('20時',  serchFromVisitorMen(20, 'aoki02'),serchFromVisitorWomen(20, 'aoki02')),
+	Array('10時',  serchFromVisitorMen(10, $_SESSION['USERDATA']['ID']),serchFromVisitorWomen(10, $_SESSION['USERDATA']['ID'])),
+  Array('11時',  serchFromVisitorMen(11, $_SESSION['USERDATA']['ID']),serchFromVisitorWomen(11, $_SESSION['USERDATA']['ID'])),
+	Array('12時',  serchFromVisitorMen(12, $_SESSION['USERDATA']['ID']),serchFromVisitorWomen(12, $_SESSION['USERDATA']['ID'])),
+	Array('13時',  serchFromVisitorMen(13, $_SESSION['USERDATA']['ID']),serchFromVisitorWomen(13, $_SESSION['USERDATA']['ID'])),
+	Array('14時',  serchFromVisitorMen(14, $_SESSION['USERDATA']['ID']),serchFromVisitorWomen(14, $_SESSION['USERDATA']['ID'])),
+	Array('15時',  serchFromVisitorMen(15, $_SESSION['USERDATA']['ID']),serchFromVisitorWomen(15, $_SESSION['USERDATA']['ID'])),
+	Array('16時',  serchFromVisitorMen(16, $_SESSION['USERDATA']['ID']),serchFromVisitorWomen(16, $_SESSION['USERDATA']['ID'])),
+	Array('17時',  serchFromVisitorMen(17, $_SESSION['USERDATA']['ID']),serchFromVisitorWomen(17, $_SESSION['USERDATA']['ID'])),
+	Array('18時',  serchFromVisitorMen(18, $_SESSION['USERDATA']['ID']),serchFromVisitorWomen(18, $_SESSION['USERDATA']['ID'])),
+	Array('19時',  serchFromVisitorMen(19, $_SESSION['USERDATA']['ID']),serchFromVisitorWomen(19, $_SESSION['USERDATA']['ID'])),
+	Array('20時',  serchFromVisitorMen(20, $_SESSION['USERDATA']['ID']),serchFromVisitorWomen(20, $_SESSION['USERDATA']['ID'])),
 );
 
 /**
