@@ -1,0 +1,204 @@
+/*body属性のスタイル*/
+body {
+  font-family: 'Calibri','Arial Rounded MT Bold','ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+  background-image: url("src/bodyBackground.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #a6794b;
+  align-self: center;
+}
+.h1-topPage-style{
+  font-family: 'Calibri','Arial Rounded MT Bold',sans-serif;
+  font-size: 50px;
+  margin-left: 30px;
+  text-align: left;
+}
+/*div属性の表示内容大枠のスタイル*/
+.div-section-body-style{
+  background-color: rgba(212, 209, 213,0.9);
+  width: 50%;
+  padding-top: 10px;
+  align-items: center;
+  margin: 10px;
+}
+/*div属性の大枠のタイトル部分のスタイル*/
+.div-section-header-style{
+  width: 50%;
+  align-items: left;
+  background-color: rgba(212, 209, 213,0.9);
+  vertical-align: center;
+}
+/*img属性のスタイル*/
+.img-content-style{
+  max-width: 80%;
+  min-width: 180px;
+  margin: 10px
+}
+/*div属性の広告タイトルのスタイル*/
+.div-section-adtitle-style{
+  text-align: center;
+  font-size: 25px;
+  margin-top: 3px;
+  margin-bottom: 10px;
+  border-bottom: 3px solid;
+}
+/*div属性の広告本文のスタイル*/
+.div-section-adbody-style{
+  text-align: left;
+  width: 70%;
+}
+/*form属性の広告入力フォーム全体のスタイル*/
+.form-input-ad-style{
+  margin: 20px;
+  width: 400px;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+/*label属性の広告タイトルのスタイル*/
+.label-adtitle-style{
+  margin: 5px;
+  display: inline-block;
+  width: 300px;
+  text-align: left;
+}
+
+/*label属性の広告本文のスタイル*/
+.label-adbody-style{
+  margin: 5px;
+  display: inline-block;
+  width: 300px;
+  text-align: left;
+
+}
+/*textarea属性の広告本文のスタイル*/
+.textarea-adbody-style{
+  vertical-align: top;
+  height: 5em;
+  resize: vertical horizontal;
+}
+
+/*inputとtextareaのスタイルを統一*/
+.input-upfile-style, .input-adtitle-style, .input-submit-style, textarea{
+  width: 300px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+/*inputとtextareaにフォーカスが当たった時のスタイル*/
+input:focus, textarea:focus{
+  border-color: #000;
+}
+.pre-font-style{
+  font-family: sans-serif;
+}
+
+/*広告編集ボタンのスタイル*/
+.button-adManage-style{
+
+}
+/*ログインフォーム関連のスタイル*/
+.form-container {
+   border: 0px solid #000000;
+   background: #ffffff;
+   background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ffffff));
+   background: -webkit-linear-gradient(top, #ffffff, #ffffff);
+   background: -moz-linear-gradient(top, #ffffff, #ffffff);
+   background: -ms-linear-gradient(top, #ffffff, #ffffff);
+   background: -o-linear-gradient(top, #ffffff, #ffffff);
+   background-image: -ms-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+   -webkit-border-radius: 0px;
+   -moz-border-radius: 0px;
+   border-radius: 0px;
+   -webkit-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 1px 0;
+   font-family: 'Helvetica Neue',Helvetica,sans-serif;
+   text-decoration: none;
+   vertical-align: middle;
+   min-width:300px;
+   padding:20px;
+   width:300px;
+   }
+.form-field {
+   border: 1px solid #000000;
+   background: #ffffff;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+   color: #949391;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   padding:8px;
+   margin-bottom:20px;
+   width:280px;
+   }
+.form-field:focus {
+   background: #fff;
+   color: #000000;
+   }
+.form-container h2 {
+   text-shadow: #ffffff 0 1px 0;
+   font-size:18px;
+   margin: 0 0 10px 0;
+   font-weight:bold;
+   text-align:center;
+    }
+.form-title {
+   margin-bottom:10px;
+   color: #363534;
+   text-shadow: #ffffff 0 1px 0;
+   }
+.submit-container {
+   margin:8px 0;
+   text-align:right;
+   }
+.submit-button {
+   border: 1px solid #000000;
+   background: #ffffff;
+   background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ffffff));
+   background: -webkit-linear-gradient(top, #ffffff, #ffffff);
+   background: -moz-linear-gradient(top, #ffffff, #ffffff);
+   background: -ms-linear-gradient(top, #ffffff, #ffffff);
+   background: -o-linear-gradient(top, #ffffff, #ffffff);
+   background-image: -ms-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   color: #000000;
+   font-family: helvetica, serif;
+   padding: 8.5px 18px;
+   font-size: 14px;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.submit-button:hover {
+   border: 1px solid #000000;
+   text-shadow: #000000 0 1px 0;
+   background: #3cd4fa;
+   background: -webkit-gradient(linear, left top, left bottom, from(#24ccff), to(#3cd4fa));
+   background: -webkit-linear-gradient(top, #24ccff, #3cd4fa);
+   background: -moz-linear-gradient(top, #24ccff, #3cd4fa);
+   background: -ms-linear-gradient(top, #24ccff, #3cd4fa);
+   background: -o-linear-gradient(top, #24ccff, #3cd4fa);
+   background-image: -ms-linear-gradient(top, #24ccff 0%, #3cd4fa 100%);
+   color: #fff;
+   }
+.submit-button:active {
+   text-shadow: #ffffff 0 1px 0;
+   border: 1px solid #ffffff;
+   background: #1759ff;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3344ff), to(#3cd4fa));
+   background: -webkit-linear-gradient(top, #3344ff, #1759ff);
+   background: -moz-linear-gradient(top, #3344ff, #1759ff);
+   background: -ms-linear-gradient(top, #3344ff, #1759ff);
+   background: -o-linear-gradient(top, #3344ff, #1759ff);
+   background-image: -ms-linear-gradient(top, #3344ff 0%, #1759ff 100%);
+   color: #000000;
+   }
